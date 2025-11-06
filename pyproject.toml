@@ -1,3 +1,11 @@
 [build-system]
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "aioremootio"
+version = "1.0.0.dev0"
+dependencies = [
+    "aiohttp>=3.12.12,<3.13.0"
+    # ...other dependencies
+]
